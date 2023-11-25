@@ -1675,9 +1675,10 @@ ul.list {
     .gallery-item .gallery-title:hover {
       color: #efb225; }
   .gallery-item .gallery-img {
-    background-size: cover;
-    min-height: 440px;
-    background-position: center center; }
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center, center; }
   .gallery-item .gallery-info {
     padding: 0 30px;
     width: 100%;
